@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: mi_dev
+  pool: 5
+  timeout: 5000
+  username: <username>
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: appname_test
+  pool: 5
+  timeout: 5000
+  username: <username>
+  password:
